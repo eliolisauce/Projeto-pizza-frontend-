@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: white;
+}
+
+header {
+  padding: 10px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #eeeeee;
+}
+
+header h2 { color: #9a321d; }
+nav { display: flex; gap: 20px; }
+a { color: #222; text-decoration: none; }
+
+.inicio {
+  padding: 65px 20px;
+  text-align: center;
+  background: #f4e4d2;
+}
+
