@@ -23,3 +23,13 @@ a { color: #222; text-decoration: none; }
   background: #f4e4d2;
 }
 
+.inicio h1 { font-size: 34px; }
+.botao, button {
+  display: inline-block;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 4px;
+  background: #9a321d;
+  color: white;
+  cursor: pointer;
+}
