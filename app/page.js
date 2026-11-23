@@ -31,4 +31,28 @@ export default function Home() {
             <p><strong>R$ 35,00</strong></p>
             <button onClick={() => setQuantidade(quantidade + 1)}>Adicionar</button>
           </article>
-      
+
+      <article>
+            <h3>Calabresa</h3>
+            <p>Calabresa, queijo e cebola
+            </p>
+            <p><strong>R$40,00</strong></p>
+            <button onClick={() => setQuantidade(quantidade + 1)}>Adicionar</button>
+          </article>
+          <article>
+            <h3>Frango com batata palha</h3>
+            <p>Frango, requeijão e batata palha</p>
+            <p><strong>R$ 42,00</strong></p>
+            <button onClick={() => setQuantidade(quantidade + 1)}>Adicionar</button>
+          </article>
+        </div>
+        <p className="sacola">Itens na sacola {quantidade}</p>
+      </section>
+
+      <footer id="contato">
+        <p>Pizza da Vila</p>
+        <p>Contato: + (55)44 99999-9999</p>
+      </footer>
+    </main>
+  );
+}
