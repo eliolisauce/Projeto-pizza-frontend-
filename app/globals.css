@@ -33,3 +33,17 @@ a { color: #222; text-decoration: none; }
   color: white;
   cursor: pointer;
 }
+
+.botao { margin-top: 10px; }
+.cardapio { padding: 35px 8%; text-align: center; }
+.pizzas { display: flex; justify-content: center; gap: 18px; }
+.pizzas article { width: 220px; padding: 15px; border: 1px solid #cccccc; }
+.sacola { margin-top: 25px; }
+footer { padding: 15px; background: #eeeeee; text-align: center; }
+
+@media (max-width: 650px) {
+  header { flex-direction: column; }
+  nav { margin-bottom: 12px; }
+  .pizzas { flex-direction: column; align-items: center; }
+  .pizzas article { width: 85%; }
+}
